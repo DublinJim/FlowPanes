@@ -2,10 +2,13 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.FlowPane?>
-
-<FlowPane fx:id="flowpane1" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="104.0" prefWidth="166.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.flowpanes.flowView">
-  <Button fx:id="btn1" mnemonicParsing="false" text="Button" />
-  <Button fx:id="btn2" mnemonicParsing="false" text="Button" />
-   <Button fx:id="btn3" layoutX="88.0" layoutY="36.0" mnemonicParsing="false" text="Button" />
-   <Button fx:id="btn4" layoutX="11.0" layoutY="10.0" mnemonicParsing="false" text="Button" />
+<FlowPane xmlns:fx="http://javafx.com/fxml/1" alignment="TOP_CENTER" maxHeight="-Infinity"
+  maxWidth="-Infinity"
+  minHeight="-Infinity" minWidth="-Infinity" prefHeight="104.0" prefWidth="166.0"
+  xmlns="http://javafx.com/javafx/17" fx:controller="com.example.flowpanes.flowView"
+  fx:id="flowpane1">
+  <Button mnemonicParsing="false" text="Button" fx:id="btn1"/>
+  <Button mnemonicParsing="false" text="Button" fx:id="btn2"/>
+  <Button mnemonicParsing="false" text="Button" fx:id="btn3"/>
+  <Button mnemonicParsing="false" text="Button" fx:id="btn4"/>
 </FlowPane>
