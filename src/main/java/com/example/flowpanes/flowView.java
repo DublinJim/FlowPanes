@@ -29,6 +29,8 @@ public class flowView implements Initializable {
         btn5.setText("Five");
 
         flowpane1.setOrientation(Orientation.VERTICAL);
+        flowpane1.setHgap(10);
+        flowpane1.setVgap(20);
     }
 
 
