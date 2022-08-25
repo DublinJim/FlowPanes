@@ -9,6 +9,10 @@ import javafx.stage.Stage;
 
 public class HelloApplication extends Application {
 
+    public static Stage myStage;
+    public static double stageHeight = 275;
+    public static double stageWidth = 100;
+
     public static void main(String[] args) {
         launch();
     }
@@ -16,10 +20,12 @@ public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
 
+
+        myStage = stage;
         FXMLLoader fxmlLoader = new FXMLLoader(
             HelloApplication.class.getResource("hello-view.fxml"));
 
-        Scene scene = new Scene(fxmlLoader.load(), 100, 275);
+        Scene scene = new Scene(fxmlLoader.load(), stageWidth, stageHeight);
 /*
         FlowPane root = new FlowPane();
         Scene scene = new Scene(root,100,175);*/
@@ -28,6 +34,5 @@ public class HelloApplication extends Application {
         stage.setScene(scene);
         stage.show();
     }
-
 
 }
