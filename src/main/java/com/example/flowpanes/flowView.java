@@ -26,11 +26,20 @@ public class flowView implements Initializable {
         btn2.setText("Two");
         btn3.setText("Three");
         btn4.setText("Four");
-        btn5.setText("Five");
+        btn5.setText("Remove");
 
         flowpane1.setOrientation(Orientation.VERTICAL);
         flowpane1.setHgap(10);
         flowpane1.setVgap(20);
+
+        /*fxmlLoader.prefWidthProperty().bind(stage.widthProperty());
+        flowpane1.prefHeightProperty().bind(stage.heightProperty());*/
+    }
+
+    @FXML
+    void removeAButton() {
+        btn1.setVisible(false);
+
     }
 
 
