@@ -11,4 +11,5 @@
   <Button mnemonicParsing="false" text="Button" fx:id="btn2"/>
   <Button mnemonicParsing="false" text="Button" fx:id="btn3"/>
   <Button mnemonicParsing="false" text="Button" fx:id="btn4"/>
+  <Button mnemonicParsing="false" text="Button" fx:id="btn5"/>
 </FlowPane>
